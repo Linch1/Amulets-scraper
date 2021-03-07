@@ -30,7 +30,7 @@ function scrapeAmulet(text){
     }
 }
 var MAIN_DIR = "/home/pero/projects/WTM/LIB/AMULETS"; // must not end with a '/';
-let directories = getDirectories();
+let directories = getDirectories(MAIN_DIR);
 let skip = [];
 var POEM;
 var OUTPUT_FILE;
