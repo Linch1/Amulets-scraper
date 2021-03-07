@@ -22,6 +22,8 @@ This scraper will scrape all the files in all the 'first level' folders searchin
 > each amulet in the output file is contained between the '|' characters.
 > 
 > Output of an amulet `FILE_NAME|AMULET|SHA256`
+> 
+> Example: `MyFile.txt |him as an enemy of the|f218adc3cc1bc062a6120c3fae0d2d4a8888889fc5726ee4d7167b29f36bef49`
 
 ### Getting started
 
