@@ -22,15 +22,15 @@ This scraper will scrape all the files in all the 'first level' folders searchin
 
 ### Getting started
 
-- Setup the enviroment
-  1. Download the repo
-  2. Open a terminal and type this commands
-  3. `cd /path/to/the/downlaoded/folder`
-  4. `npm init`
-  5. `npm i --save crypto`
-- Start scraping
-  1. Place all your txt files to scrape inside a folder
-  2. Open the `amuletScraper.js` file
-  3. change the value of the `MAIN_DIR` variable (`line:33`)
-  4. Go in the terminal
-  5. `node amuletScraper.js`
+##### Setup the enviroment
+1. Download the repo
+2. Open a terminal and type this commands
+3. `cd /path/to/the/downlaoded/folder`
+4. `npm init`
+5. `npm i --save crypto`
+##### Start scraping
+1. Place all your txt files to scrape inside a folder
+2. Open the `amuletScraper.js` file
+3. change the value of the `MAIN_DIR` variable (`line:33`)
+4. Go in the terminal
+5. `node amuletScraper.js`
