@@ -21,7 +21,7 @@ This scraper will scrape all the files in all the 'first level' folders searchin
 ```
 > each amulet in the output file is contained between the '|' characters.
 > 
-> Output of an amulet FILE_NAME|AMULET|SHA256
+> Output of an amulet `FILE_NAME|AMULET|SHA256`
 
 ### Getting started
 
