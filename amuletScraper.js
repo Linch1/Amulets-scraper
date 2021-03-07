@@ -36,14 +36,14 @@ function scrapeAmulet(text){
         textAsArray.shift(); // remove the analized string
     }
 }
-
-let directories = getDirectories("/home/pero/projects/WTM/LIB/AMULETS");
+var MAIN_DIR = "/home/pero/projects/WTM/LIB/AMULETS"; // must not end with a '/';
+let directories = getDirectories();
 let skip = [];
 var POEM;
 var OUTPUT_FILE;
 for ( let dir of directories ){
     if( skip.includes(dir) ) continue;
-    var poemDir = `/home/pero/projects/WTM/LIB/AMULETS/${dir}/`;
+    var poemDir = `${MAIN_DIR}/${dir}/`;
     let poemsFiles = getFiles(poemDir);
     for( let i = 0; i <  poemsFiles.length ; i++ ){
         let file = poemsFiles[i];
