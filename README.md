@@ -1,4 +1,6 @@
-# Amulets-scraper
+# Amulets-scraper 
+
+> This scraper searches for `epic` or higher amulets
 
 This scraper will scrape all the files in all the 'first level' folders searching for amulets.
 
@@ -19,12 +21,15 @@ This scraper will scrape all the files in all the 'first level' folders searchin
     - FIle2.txt
     - mySubFolder33-output.txt <-- This files contains the amulets
 ```
+### Example of an amulet output
 > each amulet in the output file is contained between the '|' characters.
-> 
-> Output of an amulet `FILE_NAME|AMULET|SHA256`
-> 
-> Example: `MyFile.txt |him as an enemy of the|f218adc3cc1bc062a6120c3fae0d2d4a8888889fc5726ee4d7167b29f36bef49`
-
+```
+AMULET: |not surprising, since in youth we are|
+RARITY_LENGTH: 6
+RARITY: rare
+HASH: aa1bcecbe7fd369aa888888234e170f28d91ee6afaf873acf3fcde946c6b5602
+BYTES: 37
+```
 ### Getting started
 
 ##### Setup the enviroment
