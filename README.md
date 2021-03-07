@@ -13,11 +13,11 @@ This scraper will scrape all the files in all the 'first level' folders searchin
   - mySubFolder
     - File.txt
     - FIle2.txt
-    - mySubFolder-output.txt
+    - mySubFolder-output.txt  <--
   - mySubFolder33
     - File.txt
     - FIle2.txt
-    - mySubFolder33-output.txt
+    - mySubFolder33-output.txt <--
 ```
 
 ### Getting started
