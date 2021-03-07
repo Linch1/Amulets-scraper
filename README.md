@@ -4,7 +4,7 @@ This scraper will scrape all the files in all the 'first level' folders searchin
 
 - The contained files in the folders must be `.txt` files
 - The amulets are going to placed in an output file inside each single folder with the found amulets
-- Must download [Nodejs](https://nodejs.org/it/download/) and npm
+- Must download [Nodejs](https://nodejs.org/it/download/) 
 
 ### Exapmple of root directory after that has been scraped
 
