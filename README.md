@@ -1,6 +1,7 @@
 # Amulets-scraper 
 
-> This scraper searches for `epic` or higher amulets
+> This scraper searches for `epic` or higher amulets.
+> An amulet is a string that has a specific hash with four or more 8 in a row
 
 This scraper will scrape all the files in all the 'first level' folders searching for amulets.
 
